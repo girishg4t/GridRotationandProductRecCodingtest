@@ -1,0 +1,91 @@
+{
+    "Junior Saver": {
+        "Rules": {
+            "Age": {
+                "Operator": "<",
+                "Value": 18
+            },
+            "Student": null,
+            "Income": null
+        },
+        "Products": [
+            "Junior Saver Account"
+        ],
+        "Value": 0
+    },
+    "Student": {
+        "Rules": {
+            "Age": {
+                "Operator": ">",
+                "Value": 17
+            },
+            "Student": {
+                "Operator": "=",
+                "Value": true
+            },
+            "Income": null
+        },
+        "Products": [
+            "Student Account",
+            "Debit Card",
+            "Credit Card"
+        ],
+        "Value": 0
+    },
+    "Classic": {
+        "Rules": {
+            "Age": {
+                "Operator": ">",
+                "Value": 17
+            },
+            "Student": null,
+            "Income": {
+                "Operator": ">",
+                "Value": 0
+            }
+        },
+        "Products": [
+            "Current Account",
+            "Debit Card"
+        ],
+        "Value": 1
+    },
+    "Classic Plus": {
+        "Rules": {
+            "Age": {
+                "Operator": ">",
+                "Value": 17
+            },
+            "Student": null,
+            "Income": {
+                "Operator": ">",
+                "Value": 12000
+            }
+        },
+        "Products": [
+            "Current Account",
+            "Debit Card",
+            "Credit Card"
+        ],
+        "Value": 2
+    },
+    "Gold": {
+        "Rules": {
+            "Age": {
+                "Operator": ">",
+                "Value": 17
+            },
+            "Student": null,
+            "Income": {
+                "Operator": ">",
+                "Value": 40000
+            }
+        },
+        "Products": [
+            "Current Account Plus",
+            "Debit Card",
+            "Gold Credit Card"
+        ],
+        "Value": 3
+    }
+}

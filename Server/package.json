@@ -1,0 +1,17 @@
+{
+  "name": "inheritxtest",
+  "version": "1.0.0",
+  "description": "The are 2 test in this package 1) for Pixel rotation and 2) for Product Recommendation",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mocha": "^6.2.1"
+  }
+}

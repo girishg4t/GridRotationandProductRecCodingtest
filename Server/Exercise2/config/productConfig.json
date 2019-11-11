@@ -1,0 +1,65 @@
+{
+    "Current Account": {
+        "Age": {
+            "Operator": ">",
+            "Value": 17
+        },
+        "Student": null,
+        "Income": {
+            "Operator": ">",
+            "Value": 0
+        }
+    },
+    "Current Account Plus": {
+        "Age": {
+            "Operator": ">",
+            "Value": 17
+        },
+        "Student": null,
+        "Income": {
+            "Operator": ">",
+            "Value": 40000
+        }
+    }    ,
+    "Junior Saver Account": {
+        "Age": {
+            "Operator": "<",
+            "Value": 18
+        },
+        "Student": null,
+        "Income": null
+    },
+    "Student Account": {
+        "Age": {
+            "Operator": ">",
+            "Value": 17
+        },
+        "Student": {
+            "Operator": "=",
+            "Value": true
+        },
+        "Income": null
+    },
+    "Credit Card": {
+        "Age": {
+            "Operator": ">",
+            "Value": 17
+        },
+        "Student": null,
+        "Income": {
+            "Operator": ">",
+            "Value": 12000
+        }
+    },
+    "Gold Credit Card": {
+        "Age": {
+            "Operator": ">",
+            "Value": 17
+        },
+        "Student": null,
+        "Income": {
+            "Operator": ">",
+            "Value": 40000
+        }
+    }
+}
